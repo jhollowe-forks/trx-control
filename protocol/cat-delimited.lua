@@ -146,7 +146,7 @@ local function getFrequency(driver)
 end
 
 local function setMode(driver, band, mode)
-	print('ft-710', band, mode)
+	print(driver.name, band, mode)
 	local bcode
 
 	if band == 'main' then
